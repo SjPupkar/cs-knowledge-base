@@ -1,0 +1,7 @@
+# Python / MkDocs build artifacts
+site/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.venv

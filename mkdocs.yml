@@ -1,0 +1,43 @@
+site_name: CS Knowledge Base
+site_description: Customer Success articles, playbooks, and onboarding plans
+repo_url: https://github.com/your-username/your-repo
+repo_name: your-username/your-repo
+
+nav:
+  - Home: index.md
+  - Articles:
+      - Sample Article: articles/sample-article.md
+  - Playbooks:
+      - QBR Playbook: playbooks/QBR-playbook.md
+      - Renewal Runbook: playbooks/Renewal-runbook.md
+  - Onboarding:
+      - 30-60-90 Template: onboarding/30-60-90-template.md
+      - CSM Onboarding Checklist: onboarding/csm-onboarding-checklist.md
+  - Checklists:
+      - QBR Checklist: checklists/qbr-checklist.md
+      - Renewal Checklist: checklists/renewal-checklist.md
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+    - toc.integrate
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
